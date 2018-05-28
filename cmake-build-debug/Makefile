@@ -123,6 +123,87 @@ RPG/fast:
 	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/build
 .PHONY : RPG/fast
 
+armor.o: armor.cpp.o
+
+.PHONY : armor.o
+
+# target to build an object file
+armor.cpp.o:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/armor.cpp.o
+.PHONY : armor.cpp.o
+
+armor.i: armor.cpp.i
+
+.PHONY : armor.i
+
+# target to preprocess a source file
+armor.cpp.i:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/armor.cpp.i
+.PHONY : armor.cpp.i
+
+armor.s: armor.cpp.s
+
+.PHONY : armor.s
+
+# target to generate assembly for a file
+armor.cpp.s:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/armor.cpp.s
+.PHONY : armor.cpp.s
+
+barbarian.o: barbarian.cpp.o
+
+.PHONY : barbarian.o
+
+# target to build an object file
+barbarian.cpp.o:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/barbarian.cpp.o
+.PHONY : barbarian.cpp.o
+
+barbarian.i: barbarian.cpp.i
+
+.PHONY : barbarian.i
+
+# target to preprocess a source file
+barbarian.cpp.i:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/barbarian.cpp.i
+.PHONY : barbarian.cpp.i
+
+barbarian.s: barbarian.cpp.s
+
+.PHONY : barbarian.s
+
+# target to generate assembly for a file
+barbarian.cpp.s:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/barbarian.cpp.s
+.PHONY : barbarian.cpp.s
+
+bow.o: bow.cpp.o
+
+.PHONY : bow.o
+
+# target to build an object file
+bow.cpp.o:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/bow.cpp.o
+.PHONY : bow.cpp.o
+
+bow.i: bow.cpp.i
+
+.PHONY : bow.i
+
+# target to preprocess a source file
+bow.cpp.i:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/bow.cpp.i
+.PHONY : bow.cpp.i
+
+bow.s: bow.cpp.s
+
+.PHONY : bow.s
+
+# target to generate assembly for a file
+bow.cpp.s:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/bow.cpp.s
+.PHONY : bow.cpp.s
+
 character.o: character.cpp.o
 
 .PHONY : character.o
@@ -177,6 +258,222 @@ creature.cpp.s:
 	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/creature.cpp.s
 .PHONY : creature.cpp.s
 
+goblin.o: goblin.cpp.o
+
+.PHONY : goblin.o
+
+# target to build an object file
+goblin.cpp.o:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/goblin.cpp.o
+.PHONY : goblin.cpp.o
+
+goblin.i: goblin.cpp.i
+
+.PHONY : goblin.i
+
+# target to preprocess a source file
+goblin.cpp.i:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/goblin.cpp.i
+.PHONY : goblin.cpp.i
+
+goblin.s: goblin.cpp.s
+
+.PHONY : goblin.s
+
+# target to generate assembly for a file
+goblin.cpp.s:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/goblin.cpp.s
+.PHONY : goblin.cpp.s
+
+hauberk.o: hauberk.cpp.o
+
+.PHONY : hauberk.o
+
+# target to build an object file
+hauberk.cpp.o:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/hauberk.cpp.o
+.PHONY : hauberk.cpp.o
+
+hauberk.i: hauberk.cpp.i
+
+.PHONY : hauberk.i
+
+# target to preprocess a source file
+hauberk.cpp.i:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/hauberk.cpp.i
+.PHONY : hauberk.cpp.i
+
+hauberk.s: hauberk.cpp.s
+
+.PHONY : hauberk.s
+
+# target to generate assembly for a file
+hauberk.cpp.s:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/hauberk.cpp.s
+.PHONY : hauberk.cpp.s
+
+hp_potion.o: hp_potion.cpp.o
+
+.PHONY : hp_potion.o
+
+# target to build an object file
+hp_potion.cpp.o:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/hp_potion.cpp.o
+.PHONY : hp_potion.cpp.o
+
+hp_potion.i: hp_potion.cpp.i
+
+.PHONY : hp_potion.i
+
+# target to preprocess a source file
+hp_potion.cpp.i:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/hp_potion.cpp.i
+.PHONY : hp_potion.cpp.i
+
+hp_potion.s: hp_potion.cpp.s
+
+.PHONY : hp_potion.s
+
+# target to generate assembly for a file
+hp_potion.cpp.s:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/hp_potion.cpp.s
+.PHONY : hp_potion.cpp.s
+
+leather_armor.o: leather_armor.cpp.o
+
+.PHONY : leather_armor.o
+
+# target to build an object file
+leather_armor.cpp.o:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/leather_armor.cpp.o
+.PHONY : leather_armor.cpp.o
+
+leather_armor.i: leather_armor.cpp.i
+
+.PHONY : leather_armor.i
+
+# target to preprocess a source file
+leather_armor.cpp.i:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/leather_armor.cpp.i
+.PHONY : leather_armor.cpp.i
+
+leather_armor.s: leather_armor.cpp.s
+
+.PHONY : leather_armor.s
+
+# target to generate assembly for a file
+leather_armor.cpp.s:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/leather_armor.cpp.s
+.PHONY : leather_armor.cpp.s
+
+mana_potion.o: mana_potion.cpp.o
+
+.PHONY : mana_potion.o
+
+# target to build an object file
+mana_potion.cpp.o:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/mana_potion.cpp.o
+.PHONY : mana_potion.cpp.o
+
+mana_potion.i: mana_potion.cpp.i
+
+.PHONY : mana_potion.i
+
+# target to preprocess a source file
+mana_potion.cpp.i:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/mana_potion.cpp.i
+.PHONY : mana_potion.cpp.i
+
+mana_potion.s: mana_potion.cpp.s
+
+.PHONY : mana_potion.s
+
+# target to generate assembly for a file
+mana_potion.cpp.s:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/mana_potion.cpp.s
+.PHONY : mana_potion.cpp.s
+
+mob.o: mob.cpp.o
+
+.PHONY : mob.o
+
+# target to build an object file
+mob.cpp.o:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/mob.cpp.o
+.PHONY : mob.cpp.o
+
+mob.i: mob.cpp.i
+
+.PHONY : mob.i
+
+# target to preprocess a source file
+mob.cpp.i:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/mob.cpp.i
+.PHONY : mob.cpp.i
+
+mob.s: mob.cpp.s
+
+.PHONY : mob.s
+
+# target to generate assembly for a file
+mob.cpp.s:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/mob.cpp.s
+.PHONY : mob.cpp.s
+
+stamina_potion.o: stamina_potion.cpp.o
+
+.PHONY : stamina_potion.o
+
+# target to build an object file
+stamina_potion.cpp.o:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/stamina_potion.cpp.o
+.PHONY : stamina_potion.cpp.o
+
+stamina_potion.i: stamina_potion.cpp.i
+
+.PHONY : stamina_potion.i
+
+# target to preprocess a source file
+stamina_potion.cpp.i:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/stamina_potion.cpp.i
+.PHONY : stamina_potion.cpp.i
+
+stamina_potion.s: stamina_potion.cpp.s
+
+.PHONY : stamina_potion.s
+
+# target to generate assembly for a file
+stamina_potion.cpp.s:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/stamina_potion.cpp.s
+.PHONY : stamina_potion.cpp.s
+
+sword.o: sword.cpp.o
+
+.PHONY : sword.o
+
+# target to build an object file
+sword.cpp.o:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/sword.cpp.o
+.PHONY : sword.cpp.o
+
+sword.i: sword.cpp.i
+
+.PHONY : sword.i
+
+# target to preprocess a source file
+sword.cpp.i:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/sword.cpp.i
+.PHONY : sword.cpp.i
+
+sword.s: sword.cpp.s
+
+.PHONY : sword.s
+
+# target to generate assembly for a file
+sword.cpp.s:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/sword.cpp.s
+.PHONY : sword.cpp.s
+
 tests.o: tests.cpp.o
 
 .PHONY : tests.o
@@ -204,6 +501,87 @@ tests.cpp.s:
 	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/tests.cpp.s
 .PHONY : tests.cpp.s
 
+thing.o: thing.cpp.o
+
+.PHONY : thing.o
+
+# target to build an object file
+thing.cpp.o:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/thing.cpp.o
+.PHONY : thing.cpp.o
+
+thing.i: thing.cpp.i
+
+.PHONY : thing.i
+
+# target to preprocess a source file
+thing.cpp.i:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/thing.cpp.i
+.PHONY : thing.cpp.i
+
+thing.s: thing.cpp.s
+
+.PHONY : thing.s
+
+# target to generate assembly for a file
+thing.cpp.s:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/thing.cpp.s
+.PHONY : thing.cpp.s
+
+usable.o: usable.cpp.o
+
+.PHONY : usable.o
+
+# target to build an object file
+usable.cpp.o:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/usable.cpp.o
+.PHONY : usable.cpp.o
+
+usable.i: usable.cpp.i
+
+.PHONY : usable.i
+
+# target to preprocess a source file
+usable.cpp.i:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/usable.cpp.i
+.PHONY : usable.cpp.i
+
+usable.s: usable.cpp.s
+
+.PHONY : usable.s
+
+# target to generate assembly for a file
+usable.cpp.s:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/usable.cpp.s
+.PHONY : usable.cpp.s
+
+weapon.o: weapon.cpp.o
+
+.PHONY : weapon.o
+
+# target to build an object file
+weapon.cpp.o:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/weapon.cpp.o
+.PHONY : weapon.cpp.o
+
+weapon.i: weapon.cpp.i
+
+.PHONY : weapon.i
+
+# target to preprocess a source file
+weapon.cpp.i:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/weapon.cpp.i
+.PHONY : weapon.cpp.i
+
+weapon.s: weapon.cpp.s
+
+.PHONY : weapon.s
+
+# target to generate assembly for a file
+weapon.cpp.s:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/weapon.cpp.s
+.PHONY : weapon.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,15 +591,57 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... RPG"
+	@echo "... armor.o"
+	@echo "... armor.i"
+	@echo "... armor.s"
+	@echo "... barbarian.o"
+	@echo "... barbarian.i"
+	@echo "... barbarian.s"
+	@echo "... bow.o"
+	@echo "... bow.i"
+	@echo "... bow.s"
 	@echo "... character.o"
 	@echo "... character.i"
 	@echo "... character.s"
 	@echo "... creature.o"
 	@echo "... creature.i"
 	@echo "... creature.s"
+	@echo "... goblin.o"
+	@echo "... goblin.i"
+	@echo "... goblin.s"
+	@echo "... hauberk.o"
+	@echo "... hauberk.i"
+	@echo "... hauberk.s"
+	@echo "... hp_potion.o"
+	@echo "... hp_potion.i"
+	@echo "... hp_potion.s"
+	@echo "... leather_armor.o"
+	@echo "... leather_armor.i"
+	@echo "... leather_armor.s"
+	@echo "... mana_potion.o"
+	@echo "... mana_potion.i"
+	@echo "... mana_potion.s"
+	@echo "... mob.o"
+	@echo "... mob.i"
+	@echo "... mob.s"
+	@echo "... stamina_potion.o"
+	@echo "... stamina_potion.i"
+	@echo "... stamina_potion.s"
+	@echo "... sword.o"
+	@echo "... sword.i"
+	@echo "... sword.s"
 	@echo "... tests.o"
 	@echo "... tests.i"
 	@echo "... tests.s"
+	@echo "... thing.o"
+	@echo "... thing.i"
+	@echo "... thing.s"
+	@echo "... usable.o"
+	@echo "... usable.i"
+	@echo "... usable.s"
+	@echo "... weapon.o"
+	@echo "... weapon.i"
+	@echo "... weapon.s"
 .PHONY : help
 
 

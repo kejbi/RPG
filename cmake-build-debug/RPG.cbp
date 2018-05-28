@@ -84,6 +84,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/armor.cpp">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/armor.h">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/barbarian.cpp">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/barbarian.h">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/bow.cpp">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/bow.h">
+			<Option target="RPG"/>
+		</Unit>
 		<Unit filename="/home/kejbi/CLionProjects/RPG/catch.h">
 			<Option target="RPG"/>
 		</Unit>
@@ -99,7 +117,73 @@
 		<Unit filename="/home/kejbi/CLionProjects/RPG/creature.h">
 			<Option target="RPG"/>
 		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/goblin.cpp">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/goblin.h">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/hauberk.cpp">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/hauberk.h">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/hp_potion.cpp">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/hp_potion.h">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/leather_armor.cpp">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/leather_armor.h">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/mana_potion.cpp">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/mana_potion.h">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/mob.cpp">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/mob.h">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/stamina_potion.cpp">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/stamina_potion.h">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/sword.cpp">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/sword.h">
+			<Option target="RPG"/>
+		</Unit>
 		<Unit filename="/home/kejbi/CLionProjects/RPG/tests.cpp">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/thing.cpp">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/thing.h">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/usable.cpp">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/usable.h">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/weapon.cpp">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/weapon.h">
 			<Option target="RPG"/>
 		</Unit>
 		<Unit filename="/home/kejbi/CLionProjects/RPG/CMakeLists.txt">

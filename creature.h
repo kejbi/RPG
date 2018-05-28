@@ -8,8 +8,13 @@
 #include <iostream>
 
 //abstract class of creature objects(players, mobs, etc)
+enum creature_type{
+    character,
+    mob
+};
 class Creature{
 private:
+    creature_type ct;
     int hp; //health points of creature
     int posX; //actual X position on map
     int posY; //actual Y position on map
@@ -18,9 +23,25 @@ private:
     int stamina; //every single activity reduces it, your range of activity, every turn it regenerates
     int max_hp; //max health points, you can't regenerate more that this
     int max_stamina;// max stamina points ----------||----------
-
+    int strength;
+    int intelligence;
+    int agility;
+    int armor;
+    int damage;
+    bool isalive;
 public:
     //getters and setters
+    creature_type getCt() const;
+
+    void setCt(creature_type ct);
+
+    int getDamage() const;
+
+    void setDamage(int damage);
+
+    bool isIsalive() const;
+
+    void setIsalive(bool isalive);
 
     int getMax_hp() const;
 
@@ -54,6 +75,28 @@ public:
 
     int getHp() const;
 
+    int getStrength() const;
+
+    void setStrength(int strength);
+
+    int getIntelligence() const;
+
+    void setIntelligence(int intelligence);
+
+    int getAgility() const;
+
+    void setAgility(int agility);
+
+    int getArmor() const;
+
+    void setArmor(int armor);
+
+
+    Creature(creature_type ct, int hp, int posX, int posY, const std::string &name, int attackRange, int stamina,
+             int max_hp, int max_stamina, int strength, int intelligence, int agility, int armor, int damage,
+             bool isalive);
+
+
     //functions
     bool move(int x, int y);
 
@@ -63,8 +106,6 @@ public:
     // virtual functions
 
     virtual bool attack(Creature &cre)=0;
-
-    virtual bool counter(Creature &cre)=0;
 
 
 };

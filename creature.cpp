@@ -85,5 +85,69 @@ int Creature::distance(int x, int y) {
     return abs(this->posX-x)+abs(this->posY-y);
 }
 
+int Creature::getStrength() const {
+    return strength;
+}
+
+void Creature::setStrength(int strength) {
+    Creature::strength = strength;
+}
+
+int Creature::getIntelligence() const {
+    return intelligence;
+}
+
+void Creature::setIntelligence(int intelligence) {
+    Creature::intelligence = intelligence;
+}
+
+int Creature::getAgility() const {
+    return agility;
+}
+
+void Creature::setAgility(int agility) {
+    Creature::agility = agility;
+}
+
+int Creature::getArmor() const {
+    return armor;
+}
+
+void Creature::setArmor(int armor) {
+    Creature::armor = armor;
+}
+
+
+bool Creature::isIsalive() const {
+    return isalive;
+}
+
+void Creature::setIsalive(bool isalive) {
+    Creature::isalive = isalive;
+}
+
+int Creature::getDamage() const {
+    return damage;
+}
+
+void Creature::setDamage(int damage) {
+    Creature::damage = damage;
+}
+
+creature_type Creature::getCt() const {
+    return ct;
+}
+
+void Creature::setCt(creature_type ct) {
+    Creature::ct = ct;
+}
+
+Creature::Creature(creature_type ct, int hp, int posX, int posY, const std::string &name, int attackRange, int stamina,
+                   int max_hp, int max_stamina, int strength, int intelligence, int agility, int armor, int damage,
+                   bool isalive) : ct(ct), hp(hp), posX(posX), posY(posY), name(name), attackRange(attackRange),
+                                   stamina(stamina), max_hp(max_hp), max_stamina(max_stamina), strength(strength),
+                                   intelligence(intelligence), agility(agility), armor(armor), damage(damage),
+                                   isalive(isalive) {}
+
 
 

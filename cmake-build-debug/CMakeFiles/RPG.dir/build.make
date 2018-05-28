@@ -129,11 +129,361 @@ CMakeFiles/RPG.dir/tests.cpp.o.provides: CMakeFiles/RPG.dir/tests.cpp.o.requires
 CMakeFiles/RPG.dir/tests.cpp.o.provides.build: CMakeFiles/RPG.dir/tests.cpp.o
 
 
+CMakeFiles/RPG.dir/thing.cpp.o: CMakeFiles/RPG.dir/flags.make
+CMakeFiles/RPG.dir/thing.cpp.o: ../thing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RPG.dir/thing.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RPG.dir/thing.cpp.o -c /home/kejbi/CLionProjects/RPG/thing.cpp
+
+CMakeFiles/RPG.dir/thing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RPG.dir/thing.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kejbi/CLionProjects/RPG/thing.cpp > CMakeFiles/RPG.dir/thing.cpp.i
+
+CMakeFiles/RPG.dir/thing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RPG.dir/thing.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kejbi/CLionProjects/RPG/thing.cpp -o CMakeFiles/RPG.dir/thing.cpp.s
+
+CMakeFiles/RPG.dir/thing.cpp.o.requires:
+
+.PHONY : CMakeFiles/RPG.dir/thing.cpp.o.requires
+
+CMakeFiles/RPG.dir/thing.cpp.o.provides: CMakeFiles/RPG.dir/thing.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/thing.cpp.o.provides.build
+.PHONY : CMakeFiles/RPG.dir/thing.cpp.o.provides
+
+CMakeFiles/RPG.dir/thing.cpp.o.provides.build: CMakeFiles/RPG.dir/thing.cpp.o
+
+
+CMakeFiles/RPG.dir/weapon.cpp.o: CMakeFiles/RPG.dir/flags.make
+CMakeFiles/RPG.dir/weapon.cpp.o: ../weapon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RPG.dir/weapon.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RPG.dir/weapon.cpp.o -c /home/kejbi/CLionProjects/RPG/weapon.cpp
+
+CMakeFiles/RPG.dir/weapon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RPG.dir/weapon.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kejbi/CLionProjects/RPG/weapon.cpp > CMakeFiles/RPG.dir/weapon.cpp.i
+
+CMakeFiles/RPG.dir/weapon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RPG.dir/weapon.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kejbi/CLionProjects/RPG/weapon.cpp -o CMakeFiles/RPG.dir/weapon.cpp.s
+
+CMakeFiles/RPG.dir/weapon.cpp.o.requires:
+
+.PHONY : CMakeFiles/RPG.dir/weapon.cpp.o.requires
+
+CMakeFiles/RPG.dir/weapon.cpp.o.provides: CMakeFiles/RPG.dir/weapon.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/weapon.cpp.o.provides.build
+.PHONY : CMakeFiles/RPG.dir/weapon.cpp.o.provides
+
+CMakeFiles/RPG.dir/weapon.cpp.o.provides.build: CMakeFiles/RPG.dir/weapon.cpp.o
+
+
+CMakeFiles/RPG.dir/armor.cpp.o: CMakeFiles/RPG.dir/flags.make
+CMakeFiles/RPG.dir/armor.cpp.o: ../armor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RPG.dir/armor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RPG.dir/armor.cpp.o -c /home/kejbi/CLionProjects/RPG/armor.cpp
+
+CMakeFiles/RPG.dir/armor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RPG.dir/armor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kejbi/CLionProjects/RPG/armor.cpp > CMakeFiles/RPG.dir/armor.cpp.i
+
+CMakeFiles/RPG.dir/armor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RPG.dir/armor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kejbi/CLionProjects/RPG/armor.cpp -o CMakeFiles/RPG.dir/armor.cpp.s
+
+CMakeFiles/RPG.dir/armor.cpp.o.requires:
+
+.PHONY : CMakeFiles/RPG.dir/armor.cpp.o.requires
+
+CMakeFiles/RPG.dir/armor.cpp.o.provides: CMakeFiles/RPG.dir/armor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/armor.cpp.o.provides.build
+.PHONY : CMakeFiles/RPG.dir/armor.cpp.o.provides
+
+CMakeFiles/RPG.dir/armor.cpp.o.provides.build: CMakeFiles/RPG.dir/armor.cpp.o
+
+
+CMakeFiles/RPG.dir/usable.cpp.o: CMakeFiles/RPG.dir/flags.make
+CMakeFiles/RPG.dir/usable.cpp.o: ../usable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RPG.dir/usable.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RPG.dir/usable.cpp.o -c /home/kejbi/CLionProjects/RPG/usable.cpp
+
+CMakeFiles/RPG.dir/usable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RPG.dir/usable.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kejbi/CLionProjects/RPG/usable.cpp > CMakeFiles/RPG.dir/usable.cpp.i
+
+CMakeFiles/RPG.dir/usable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RPG.dir/usable.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kejbi/CLionProjects/RPG/usable.cpp -o CMakeFiles/RPG.dir/usable.cpp.s
+
+CMakeFiles/RPG.dir/usable.cpp.o.requires:
+
+.PHONY : CMakeFiles/RPG.dir/usable.cpp.o.requires
+
+CMakeFiles/RPG.dir/usable.cpp.o.provides: CMakeFiles/RPG.dir/usable.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/usable.cpp.o.provides.build
+.PHONY : CMakeFiles/RPG.dir/usable.cpp.o.provides
+
+CMakeFiles/RPG.dir/usable.cpp.o.provides.build: CMakeFiles/RPG.dir/usable.cpp.o
+
+
+CMakeFiles/RPG.dir/bow.cpp.o: CMakeFiles/RPG.dir/flags.make
+CMakeFiles/RPG.dir/bow.cpp.o: ../bow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RPG.dir/bow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RPG.dir/bow.cpp.o -c /home/kejbi/CLionProjects/RPG/bow.cpp
+
+CMakeFiles/RPG.dir/bow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RPG.dir/bow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kejbi/CLionProjects/RPG/bow.cpp > CMakeFiles/RPG.dir/bow.cpp.i
+
+CMakeFiles/RPG.dir/bow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RPG.dir/bow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kejbi/CLionProjects/RPG/bow.cpp -o CMakeFiles/RPG.dir/bow.cpp.s
+
+CMakeFiles/RPG.dir/bow.cpp.o.requires:
+
+.PHONY : CMakeFiles/RPG.dir/bow.cpp.o.requires
+
+CMakeFiles/RPG.dir/bow.cpp.o.provides: CMakeFiles/RPG.dir/bow.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/bow.cpp.o.provides.build
+.PHONY : CMakeFiles/RPG.dir/bow.cpp.o.provides
+
+CMakeFiles/RPG.dir/bow.cpp.o.provides.build: CMakeFiles/RPG.dir/bow.cpp.o
+
+
+CMakeFiles/RPG.dir/sword.cpp.o: CMakeFiles/RPG.dir/flags.make
+CMakeFiles/RPG.dir/sword.cpp.o: ../sword.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RPG.dir/sword.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RPG.dir/sword.cpp.o -c /home/kejbi/CLionProjects/RPG/sword.cpp
+
+CMakeFiles/RPG.dir/sword.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RPG.dir/sword.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kejbi/CLionProjects/RPG/sword.cpp > CMakeFiles/RPG.dir/sword.cpp.i
+
+CMakeFiles/RPG.dir/sword.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RPG.dir/sword.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kejbi/CLionProjects/RPG/sword.cpp -o CMakeFiles/RPG.dir/sword.cpp.s
+
+CMakeFiles/RPG.dir/sword.cpp.o.requires:
+
+.PHONY : CMakeFiles/RPG.dir/sword.cpp.o.requires
+
+CMakeFiles/RPG.dir/sword.cpp.o.provides: CMakeFiles/RPG.dir/sword.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/sword.cpp.o.provides.build
+.PHONY : CMakeFiles/RPG.dir/sword.cpp.o.provides
+
+CMakeFiles/RPG.dir/sword.cpp.o.provides.build: CMakeFiles/RPG.dir/sword.cpp.o
+
+
+CMakeFiles/RPG.dir/mana_potion.cpp.o: CMakeFiles/RPG.dir/flags.make
+CMakeFiles/RPG.dir/mana_potion.cpp.o: ../mana_potion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/RPG.dir/mana_potion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RPG.dir/mana_potion.cpp.o -c /home/kejbi/CLionProjects/RPG/mana_potion.cpp
+
+CMakeFiles/RPG.dir/mana_potion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RPG.dir/mana_potion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kejbi/CLionProjects/RPG/mana_potion.cpp > CMakeFiles/RPG.dir/mana_potion.cpp.i
+
+CMakeFiles/RPG.dir/mana_potion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RPG.dir/mana_potion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kejbi/CLionProjects/RPG/mana_potion.cpp -o CMakeFiles/RPG.dir/mana_potion.cpp.s
+
+CMakeFiles/RPG.dir/mana_potion.cpp.o.requires:
+
+.PHONY : CMakeFiles/RPG.dir/mana_potion.cpp.o.requires
+
+CMakeFiles/RPG.dir/mana_potion.cpp.o.provides: CMakeFiles/RPG.dir/mana_potion.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/mana_potion.cpp.o.provides.build
+.PHONY : CMakeFiles/RPG.dir/mana_potion.cpp.o.provides
+
+CMakeFiles/RPG.dir/mana_potion.cpp.o.provides.build: CMakeFiles/RPG.dir/mana_potion.cpp.o
+
+
+CMakeFiles/RPG.dir/hp_potion.cpp.o: CMakeFiles/RPG.dir/flags.make
+CMakeFiles/RPG.dir/hp_potion.cpp.o: ../hp_potion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/RPG.dir/hp_potion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RPG.dir/hp_potion.cpp.o -c /home/kejbi/CLionProjects/RPG/hp_potion.cpp
+
+CMakeFiles/RPG.dir/hp_potion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RPG.dir/hp_potion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kejbi/CLionProjects/RPG/hp_potion.cpp > CMakeFiles/RPG.dir/hp_potion.cpp.i
+
+CMakeFiles/RPG.dir/hp_potion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RPG.dir/hp_potion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kejbi/CLionProjects/RPG/hp_potion.cpp -o CMakeFiles/RPG.dir/hp_potion.cpp.s
+
+CMakeFiles/RPG.dir/hp_potion.cpp.o.requires:
+
+.PHONY : CMakeFiles/RPG.dir/hp_potion.cpp.o.requires
+
+CMakeFiles/RPG.dir/hp_potion.cpp.o.provides: CMakeFiles/RPG.dir/hp_potion.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/hp_potion.cpp.o.provides.build
+.PHONY : CMakeFiles/RPG.dir/hp_potion.cpp.o.provides
+
+CMakeFiles/RPG.dir/hp_potion.cpp.o.provides.build: CMakeFiles/RPG.dir/hp_potion.cpp.o
+
+
+CMakeFiles/RPG.dir/stamina_potion.cpp.o: CMakeFiles/RPG.dir/flags.make
+CMakeFiles/RPG.dir/stamina_potion.cpp.o: ../stamina_potion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/RPG.dir/stamina_potion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RPG.dir/stamina_potion.cpp.o -c /home/kejbi/CLionProjects/RPG/stamina_potion.cpp
+
+CMakeFiles/RPG.dir/stamina_potion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RPG.dir/stamina_potion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kejbi/CLionProjects/RPG/stamina_potion.cpp > CMakeFiles/RPG.dir/stamina_potion.cpp.i
+
+CMakeFiles/RPG.dir/stamina_potion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RPG.dir/stamina_potion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kejbi/CLionProjects/RPG/stamina_potion.cpp -o CMakeFiles/RPG.dir/stamina_potion.cpp.s
+
+CMakeFiles/RPG.dir/stamina_potion.cpp.o.requires:
+
+.PHONY : CMakeFiles/RPG.dir/stamina_potion.cpp.o.requires
+
+CMakeFiles/RPG.dir/stamina_potion.cpp.o.provides: CMakeFiles/RPG.dir/stamina_potion.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/stamina_potion.cpp.o.provides.build
+.PHONY : CMakeFiles/RPG.dir/stamina_potion.cpp.o.provides
+
+CMakeFiles/RPG.dir/stamina_potion.cpp.o.provides.build: CMakeFiles/RPG.dir/stamina_potion.cpp.o
+
+
+CMakeFiles/RPG.dir/hauberk.cpp.o: CMakeFiles/RPG.dir/flags.make
+CMakeFiles/RPG.dir/hauberk.cpp.o: ../hauberk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/RPG.dir/hauberk.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RPG.dir/hauberk.cpp.o -c /home/kejbi/CLionProjects/RPG/hauberk.cpp
+
+CMakeFiles/RPG.dir/hauberk.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RPG.dir/hauberk.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kejbi/CLionProjects/RPG/hauberk.cpp > CMakeFiles/RPG.dir/hauberk.cpp.i
+
+CMakeFiles/RPG.dir/hauberk.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RPG.dir/hauberk.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kejbi/CLionProjects/RPG/hauberk.cpp -o CMakeFiles/RPG.dir/hauberk.cpp.s
+
+CMakeFiles/RPG.dir/hauberk.cpp.o.requires:
+
+.PHONY : CMakeFiles/RPG.dir/hauberk.cpp.o.requires
+
+CMakeFiles/RPG.dir/hauberk.cpp.o.provides: CMakeFiles/RPG.dir/hauberk.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/hauberk.cpp.o.provides.build
+.PHONY : CMakeFiles/RPG.dir/hauberk.cpp.o.provides
+
+CMakeFiles/RPG.dir/hauberk.cpp.o.provides.build: CMakeFiles/RPG.dir/hauberk.cpp.o
+
+
+CMakeFiles/RPG.dir/leather_armor.cpp.o: CMakeFiles/RPG.dir/flags.make
+CMakeFiles/RPG.dir/leather_armor.cpp.o: ../leather_armor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/RPG.dir/leather_armor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RPG.dir/leather_armor.cpp.o -c /home/kejbi/CLionProjects/RPG/leather_armor.cpp
+
+CMakeFiles/RPG.dir/leather_armor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RPG.dir/leather_armor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kejbi/CLionProjects/RPG/leather_armor.cpp > CMakeFiles/RPG.dir/leather_armor.cpp.i
+
+CMakeFiles/RPG.dir/leather_armor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RPG.dir/leather_armor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kejbi/CLionProjects/RPG/leather_armor.cpp -o CMakeFiles/RPG.dir/leather_armor.cpp.s
+
+CMakeFiles/RPG.dir/leather_armor.cpp.o.requires:
+
+.PHONY : CMakeFiles/RPG.dir/leather_armor.cpp.o.requires
+
+CMakeFiles/RPG.dir/leather_armor.cpp.o.provides: CMakeFiles/RPG.dir/leather_armor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/leather_armor.cpp.o.provides.build
+.PHONY : CMakeFiles/RPG.dir/leather_armor.cpp.o.provides
+
+CMakeFiles/RPG.dir/leather_armor.cpp.o.provides.build: CMakeFiles/RPG.dir/leather_armor.cpp.o
+
+
+CMakeFiles/RPG.dir/barbarian.cpp.o: CMakeFiles/RPG.dir/flags.make
+CMakeFiles/RPG.dir/barbarian.cpp.o: ../barbarian.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/RPG.dir/barbarian.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RPG.dir/barbarian.cpp.o -c /home/kejbi/CLionProjects/RPG/barbarian.cpp
+
+CMakeFiles/RPG.dir/barbarian.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RPG.dir/barbarian.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kejbi/CLionProjects/RPG/barbarian.cpp > CMakeFiles/RPG.dir/barbarian.cpp.i
+
+CMakeFiles/RPG.dir/barbarian.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RPG.dir/barbarian.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kejbi/CLionProjects/RPG/barbarian.cpp -o CMakeFiles/RPG.dir/barbarian.cpp.s
+
+CMakeFiles/RPG.dir/barbarian.cpp.o.requires:
+
+.PHONY : CMakeFiles/RPG.dir/barbarian.cpp.o.requires
+
+CMakeFiles/RPG.dir/barbarian.cpp.o.provides: CMakeFiles/RPG.dir/barbarian.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/barbarian.cpp.o.provides.build
+.PHONY : CMakeFiles/RPG.dir/barbarian.cpp.o.provides
+
+CMakeFiles/RPG.dir/barbarian.cpp.o.provides.build: CMakeFiles/RPG.dir/barbarian.cpp.o
+
+
+CMakeFiles/RPG.dir/mob.cpp.o: CMakeFiles/RPG.dir/flags.make
+CMakeFiles/RPG.dir/mob.cpp.o: ../mob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/RPG.dir/mob.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RPG.dir/mob.cpp.o -c /home/kejbi/CLionProjects/RPG/mob.cpp
+
+CMakeFiles/RPG.dir/mob.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RPG.dir/mob.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kejbi/CLionProjects/RPG/mob.cpp > CMakeFiles/RPG.dir/mob.cpp.i
+
+CMakeFiles/RPG.dir/mob.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RPG.dir/mob.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kejbi/CLionProjects/RPG/mob.cpp -o CMakeFiles/RPG.dir/mob.cpp.s
+
+CMakeFiles/RPG.dir/mob.cpp.o.requires:
+
+.PHONY : CMakeFiles/RPG.dir/mob.cpp.o.requires
+
+CMakeFiles/RPG.dir/mob.cpp.o.provides: CMakeFiles/RPG.dir/mob.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/mob.cpp.o.provides.build
+.PHONY : CMakeFiles/RPG.dir/mob.cpp.o.provides
+
+CMakeFiles/RPG.dir/mob.cpp.o.provides.build: CMakeFiles/RPG.dir/mob.cpp.o
+
+
+CMakeFiles/RPG.dir/goblin.cpp.o: CMakeFiles/RPG.dir/flags.make
+CMakeFiles/RPG.dir/goblin.cpp.o: ../goblin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/RPG.dir/goblin.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RPG.dir/goblin.cpp.o -c /home/kejbi/CLionProjects/RPG/goblin.cpp
+
+CMakeFiles/RPG.dir/goblin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RPG.dir/goblin.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kejbi/CLionProjects/RPG/goblin.cpp > CMakeFiles/RPG.dir/goblin.cpp.i
+
+CMakeFiles/RPG.dir/goblin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RPG.dir/goblin.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kejbi/CLionProjects/RPG/goblin.cpp -o CMakeFiles/RPG.dir/goblin.cpp.s
+
+CMakeFiles/RPG.dir/goblin.cpp.o.requires:
+
+.PHONY : CMakeFiles/RPG.dir/goblin.cpp.o.requires
+
+CMakeFiles/RPG.dir/goblin.cpp.o.provides: CMakeFiles/RPG.dir/goblin.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/goblin.cpp.o.provides.build
+.PHONY : CMakeFiles/RPG.dir/goblin.cpp.o.provides
+
+CMakeFiles/RPG.dir/goblin.cpp.o.provides.build: CMakeFiles/RPG.dir/goblin.cpp.o
+
+
 # Object files for target RPG
 RPG_OBJECTS = \
 "CMakeFiles/RPG.dir/creature.cpp.o" \
 "CMakeFiles/RPG.dir/character.cpp.o" \
-"CMakeFiles/RPG.dir/tests.cpp.o"
+"CMakeFiles/RPG.dir/tests.cpp.o" \
+"CMakeFiles/RPG.dir/thing.cpp.o" \
+"CMakeFiles/RPG.dir/weapon.cpp.o" \
+"CMakeFiles/RPG.dir/armor.cpp.o" \
+"CMakeFiles/RPG.dir/usable.cpp.o" \
+"CMakeFiles/RPG.dir/bow.cpp.o" \
+"CMakeFiles/RPG.dir/sword.cpp.o" \
+"CMakeFiles/RPG.dir/mana_potion.cpp.o" \
+"CMakeFiles/RPG.dir/hp_potion.cpp.o" \
+"CMakeFiles/RPG.dir/stamina_potion.cpp.o" \
+"CMakeFiles/RPG.dir/hauberk.cpp.o" \
+"CMakeFiles/RPG.dir/leather_armor.cpp.o" \
+"CMakeFiles/RPG.dir/barbarian.cpp.o" \
+"CMakeFiles/RPG.dir/mob.cpp.o" \
+"CMakeFiles/RPG.dir/goblin.cpp.o"
 
 # External object files for target RPG
 RPG_EXTERNAL_OBJECTS =
@@ -141,9 +491,23 @@ RPG_EXTERNAL_OBJECTS =
 RPG: CMakeFiles/RPG.dir/creature.cpp.o
 RPG: CMakeFiles/RPG.dir/character.cpp.o
 RPG: CMakeFiles/RPG.dir/tests.cpp.o
+RPG: CMakeFiles/RPG.dir/thing.cpp.o
+RPG: CMakeFiles/RPG.dir/weapon.cpp.o
+RPG: CMakeFiles/RPG.dir/armor.cpp.o
+RPG: CMakeFiles/RPG.dir/usable.cpp.o
+RPG: CMakeFiles/RPG.dir/bow.cpp.o
+RPG: CMakeFiles/RPG.dir/sword.cpp.o
+RPG: CMakeFiles/RPG.dir/mana_potion.cpp.o
+RPG: CMakeFiles/RPG.dir/hp_potion.cpp.o
+RPG: CMakeFiles/RPG.dir/stamina_potion.cpp.o
+RPG: CMakeFiles/RPG.dir/hauberk.cpp.o
+RPG: CMakeFiles/RPG.dir/leather_armor.cpp.o
+RPG: CMakeFiles/RPG.dir/barbarian.cpp.o
+RPG: CMakeFiles/RPG.dir/mob.cpp.o
+RPG: CMakeFiles/RPG.dir/goblin.cpp.o
 RPG: CMakeFiles/RPG.dir/build.make
 RPG: CMakeFiles/RPG.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable RPG"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable RPG"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RPG.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +518,20 @@ CMakeFiles/RPG.dir/build: RPG
 CMakeFiles/RPG.dir/requires: CMakeFiles/RPG.dir/creature.cpp.o.requires
 CMakeFiles/RPG.dir/requires: CMakeFiles/RPG.dir/character.cpp.o.requires
 CMakeFiles/RPG.dir/requires: CMakeFiles/RPG.dir/tests.cpp.o.requires
+CMakeFiles/RPG.dir/requires: CMakeFiles/RPG.dir/thing.cpp.o.requires
+CMakeFiles/RPG.dir/requires: CMakeFiles/RPG.dir/weapon.cpp.o.requires
+CMakeFiles/RPG.dir/requires: CMakeFiles/RPG.dir/armor.cpp.o.requires
+CMakeFiles/RPG.dir/requires: CMakeFiles/RPG.dir/usable.cpp.o.requires
+CMakeFiles/RPG.dir/requires: CMakeFiles/RPG.dir/bow.cpp.o.requires
+CMakeFiles/RPG.dir/requires: CMakeFiles/RPG.dir/sword.cpp.o.requires
+CMakeFiles/RPG.dir/requires: CMakeFiles/RPG.dir/mana_potion.cpp.o.requires
+CMakeFiles/RPG.dir/requires: CMakeFiles/RPG.dir/hp_potion.cpp.o.requires
+CMakeFiles/RPG.dir/requires: CMakeFiles/RPG.dir/stamina_potion.cpp.o.requires
+CMakeFiles/RPG.dir/requires: CMakeFiles/RPG.dir/hauberk.cpp.o.requires
+CMakeFiles/RPG.dir/requires: CMakeFiles/RPG.dir/leather_armor.cpp.o.requires
+CMakeFiles/RPG.dir/requires: CMakeFiles/RPG.dir/barbarian.cpp.o.requires
+CMakeFiles/RPG.dir/requires: CMakeFiles/RPG.dir/mob.cpp.o.requires
+CMakeFiles/RPG.dir/requires: CMakeFiles/RPG.dir/goblin.cpp.o.requires
 
 .PHONY : CMakeFiles/RPG.dir/requires
 
