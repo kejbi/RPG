@@ -13,8 +13,9 @@
 #include "usable.h"
 
 class Character: public Creature{
-private:
+protected:
     int mana; //mana of character (every special attack reduces it)
+    int max_mana;
     int exp;
     int next_lvl_exp;
     int lvl;
@@ -26,11 +27,15 @@ private:
 public:
     Character(int hp, int posX, int posY, const std::string &name, int attackRange, int stamina,
               int max_hp, int max_stamina, int strength, int intelligence, int agility, int armor, int damage,
-              bool isalive, int mana, int exp, int next_lvl_exp, int lvl, int ability_point);
+              bool isalive, int mana, int max_mana, int exp, int next_lvl_exp, int lvl, int ability_point);
 
     int getAbility_point() const;
 
     void setAbility_point(int ability_point);
+
+    int getMax_mana() const;
+
+    void setMax_mana(int max_mana);
 
     const std::vector<Thing *> &getEq() const;
 
@@ -79,6 +84,12 @@ public:
     void improve_agility();
 
     void improve_intelligence();
+
+    void renew_Hp();
+
+    void renew_Stamina();
+
+    void renew_Mana();
 
 
 

@@ -339,6 +339,60 @@ hp_potion.cpp.s:
 	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/hp_potion.cpp.s
 .PHONY : hp_potion.cpp.s
 
+hunter.o: hunter.cpp.o
+
+.PHONY : hunter.o
+
+# target to build an object file
+hunter.cpp.o:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/hunter.cpp.o
+.PHONY : hunter.cpp.o
+
+hunter.i: hunter.cpp.i
+
+.PHONY : hunter.i
+
+# target to preprocess a source file
+hunter.cpp.i:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/hunter.cpp.i
+.PHONY : hunter.cpp.i
+
+hunter.s: hunter.cpp.s
+
+.PHONY : hunter.s
+
+# target to generate assembly for a file
+hunter.cpp.s:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/hunter.cpp.s
+.PHONY : hunter.cpp.s
+
+knight.o: knight.cpp.o
+
+.PHONY : knight.o
+
+# target to build an object file
+knight.cpp.o:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/knight.cpp.o
+.PHONY : knight.cpp.o
+
+knight.i: knight.cpp.i
+
+.PHONY : knight.i
+
+# target to preprocess a source file
+knight.cpp.i:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/knight.cpp.i
+.PHONY : knight.cpp.i
+
+knight.s: knight.cpp.s
+
+.PHONY : knight.s
+
+# target to generate assembly for a file
+knight.cpp.s:
+	$(MAKE) -f CMakeFiles/RPG.dir/build.make CMakeFiles/RPG.dir/knight.cpp.s
+.PHONY : knight.cpp.s
+
 leather_armor.o: leather_armor.cpp.o
 
 .PHONY : leather_armor.o
@@ -615,6 +669,12 @@ help:
 	@echo "... hp_potion.o"
 	@echo "... hp_potion.i"
 	@echo "... hp_potion.s"
+	@echo "... hunter.o"
+	@echo "... hunter.i"
+	@echo "... hunter.s"
+	@echo "... knight.o"
+	@echo "... knight.i"
+	@echo "... knight.s"
 	@echo "... leather_armor.o"
 	@echo "... leather_armor.i"
 	@echo "... leather_armor.s"

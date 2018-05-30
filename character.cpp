@@ -22,20 +22,19 @@ bool Character::attack(Creature &cre) {
             cre.setHp(cre_hp - damage_done);
             if(cre.getHp()<=0){
                 cre.setIsalive(false);
+                if(cre.getCt()==mob){
+                    Creature *c;
+                    c=&cre;
+                    Mob* m= static_cast<Mob*>(c);
+                    this->add_exp(m->getExp_given());
+                }
             }
-
-            // counter
-            if(cre.isIsalive() && distance(cre.getPosX(),cre.getPosY())<=cre.getAttackRange()){
+                // counter
+            else if(distance(cre.getPosX(),cre.getPosY())<=cre.getAttackRange()){
                 int random=rand()%500;
                 if(random+cre.getAgility()>400);{
                     this->setHp(this->getHp()-cre.getDamage()+this->getArmor());
                 }
-            }
-            else if(cre.getCt()==mob && !(cre.isIsalive())){
-                Creature *c;
-                c=&cre;
-                Mob* m= static_cast<Mob*>(c);
-                this->add_exp(m->getExp_given());
             }
             this->setStamina(this->getStamina()-20);
             return true;
@@ -140,9 +139,25 @@ void Character::use(int i) {
         }
         if(eq[i]->getTt()==usable){
             Usable* u= static_cast<Usable*>(eq[i]);
-            this->setHp(this->getHp()+u->getReg_hp());
-            this->setMana(this->getMana()+u->getReg_mana());
-            this->setStamina(this->getStamina()+u->getReg_stamina());
+
+            if(this->hp+u->getReg_hp()>this->max_hp){
+                this->hp=this->max_hp;
+            }
+            else{
+                this->hp+=u->getReg_hp();
+            }
+            if(this->mana+u->getReg_mana()>this->max_mana){
+                this->mana=this->max_mana;
+            }
+            else{
+                this->mana+=u->getReg_mana();
+            }
+            if(this->stamina+u->getReg_stamina()>this->max_stamina){
+                this->stamina=this->max_stamina;
+            }
+            else{
+                this->stamina+=u->getReg_stamina();
+            }
             eq.erase(eq.begin()+i);
         }
     }
@@ -238,12 +253,33 @@ void Character::improve_intelligence() {
 
 Character::Character(int hp, int posX, int posY, const std::string &name, int attackRange,
                      int stamina, int max_hp, int max_stamina, int strength, int intelligence, int agility, int armor,
-                     int damage, bool isalive, int mana, int exp, int next_lvl_exp, int lvl, int ability_point) :
+                     int damage, bool isalive, int mana, int max_mana, int exp, int next_lvl_exp, int lvl, int ability_point) :
         Creature(character, hp, posX, posY, name, attackRange, stamina, max_hp,
                                                                 max_stamina, strength, intelligence, agility, armor,
-                                                                damage, isalive), mana(mana), exp(exp),
+                                                                damage, isalive), mana(mana), max_mana(max_mana), exp(exp),
                                                        next_lvl_exp(next_lvl_exp), lvl(lvl),
                                                        ability_point(ability_point), wp(nullptr), armor_thing(nullptr) {}
+
+int Character::getMax_mana() const {
+    return max_mana;
+}
+
+void Character::setMax_mana(int max_mana) {
+    Character::max_mana = max_mana;
+}
+
+void Character::renew_Hp() {
+    this->hp=this->max_hp;
+}
+
+void Character::renew_Stamina() {
+    this->stamina=this->max_stamina;
+}
+
+void Character::renew_Mana() {
+    this->mana=this->max_mana;
+
+}
 
 
 

@@ -10,6 +10,7 @@ CMakeFiles/RPG.dir/barbarian.cpp.o: ../barbarian.cpp
 CMakeFiles/RPG.dir/barbarian.cpp.o: ../barbarian.h
 CMakeFiles/RPG.dir/barbarian.cpp.o: ../character.h
 CMakeFiles/RPG.dir/barbarian.cpp.o: ../creature.h
+CMakeFiles/RPG.dir/barbarian.cpp.o: ../mob.h
 CMakeFiles/RPG.dir/barbarian.cpp.o: ../thing.h
 CMakeFiles/RPG.dir/barbarian.cpp.o: ../usable.h
 CMakeFiles/RPG.dir/barbarian.cpp.o: ../weapon.h

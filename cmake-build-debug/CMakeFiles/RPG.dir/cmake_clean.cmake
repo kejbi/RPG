@@ -16,6 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/RPG.dir/barbarian.cpp.o"
   "CMakeFiles/RPG.dir/mob.cpp.o"
   "CMakeFiles/RPG.dir/goblin.cpp.o"
+  "CMakeFiles/RPG.dir/knight.cpp.o"
+  "CMakeFiles/RPG.dir/hunter.cpp.o"
   "RPG.pdb"
   "RPG"
 )

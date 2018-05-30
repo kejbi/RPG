@@ -135,6 +135,18 @@
 		<Unit filename="/home/kejbi/CLionProjects/RPG/hp_potion.h">
 			<Option target="RPG"/>
 		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/hunter.cpp">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/hunter.h">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/knight.cpp">
+			<Option target="RPG"/>
+		</Unit>
+		<Unit filename="/home/kejbi/CLionProjects/RPG/knight.h">
+			<Option target="RPG"/>
+		</Unit>
 		<Unit filename="/home/kejbi/CLionProjects/RPG/leather_armor.cpp">
 			<Option target="RPG"/>
 		</Unit>

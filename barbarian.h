@@ -13,6 +13,8 @@ public:
 
     Barbarian(int hp, int posX, int posY, const std::string &name, int attackRange, int stamina, int max_hp,
               int max_stamina, int strength, int intelligence, int agility, int armor, int damage, bool isalive,
-              int mana, int exp, int next_lvl_exp, int lvl, int ability_point);
+              int mana, int max_mana, int exp, int next_lvl_exp, int lvl, int ability_point);
+    bool charge(Creature &cre, int x, int y);
+    bool stone_throw(Creature &cre);
 };
 #endif //RPG_BARBARIAN_H

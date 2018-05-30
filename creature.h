@@ -13,7 +13,7 @@ enum creature_type{
     mob
 };
 class Creature{
-private:
+protected:
     creature_type ct;
     int hp; //health points of creature
     int posX; //actual X position on map

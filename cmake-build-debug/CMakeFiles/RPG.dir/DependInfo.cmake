@@ -12,6 +12,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kejbi/CLionProjects/RPG/goblin.cpp" "/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles/RPG.dir/goblin.cpp.o"
   "/home/kejbi/CLionProjects/RPG/hauberk.cpp" "/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles/RPG.dir/hauberk.cpp.o"
   "/home/kejbi/CLionProjects/RPG/hp_potion.cpp" "/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles/RPG.dir/hp_potion.cpp.o"
+  "/home/kejbi/CLionProjects/RPG/hunter.cpp" "/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles/RPG.dir/hunter.cpp.o"
+  "/home/kejbi/CLionProjects/RPG/knight.cpp" "/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles/RPG.dir/knight.cpp.o"
   "/home/kejbi/CLionProjects/RPG/leather_armor.cpp" "/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles/RPG.dir/leather_armor.cpp.o"
   "/home/kejbi/CLionProjects/RPG/mana_potion.cpp" "/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles/RPG.dir/mana_potion.cpp.o"
   "/home/kejbi/CLionProjects/RPG/mob.cpp" "/home/kejbi/CLionProjects/RPG/cmake-build-debug/CMakeFiles/RPG.dir/mob.cpp.o"
