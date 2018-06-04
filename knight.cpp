@@ -51,10 +51,13 @@ bool Knight::precise_cut(Creature &cre) {
         this->stamina-=20;
         return true;
     }
+    return false;
 }
 
 bool Knight::smart_choice() {
-    if (this->isalive && this->mana - 20 >= 0 && this->stamina - 20 >= 0) {
+    if (this->isalive && this->mana - 10 >= 0 && this->stamina - 20 >= 0) {
+        this->mana-=10;
+        this->stamina-=20;
         if(this->hp+this->intelligence+20>this->max_hp){
             this->hp=this->max_hp;
         }
@@ -66,12 +69,6 @@ bool Knight::smart_choice() {
         }
         else{
             this->mana+=this->intelligence+20;
-        }
-        if(this->stamina+this->intelligence+20>this->max_stamina){
-            this->stamina=this->max_stamina;
-        }
-        else{
-            this->stamina+=this->intelligence+20;
         }
         return true;
     }

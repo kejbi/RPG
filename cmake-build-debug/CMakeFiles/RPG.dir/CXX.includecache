@@ -472,6 +472,26 @@ hp_potion.h
 usable.h
 /home/kejbi/CLionProjects/RPG/usable.h
 
+/home/kejbi/CLionProjects/RPG/hunter.cpp
+hunter.h
+/home/kejbi/CLionProjects/RPG/hunter.h
+
+/home/kejbi/CLionProjects/RPG/hunter.h
+character.h
+/home/kejbi/CLionProjects/RPG/character.h
+mob.h
+/home/kejbi/CLionProjects/RPG/mob.h
+
+/home/kejbi/CLionProjects/RPG/knight.cpp
+knight.h
+/home/kejbi/CLionProjects/RPG/knight.h
+mob.h
+/home/kejbi/CLionProjects/RPG/mob.h
+
+/home/kejbi/CLionProjects/RPG/knight.h
+character.h
+/home/kejbi/CLionProjects/RPG/character.h
+
 /home/kejbi/CLionProjects/RPG/leather_armor.cpp
 leather_armor.h
 /home/kejbi/CLionProjects/RPG/leather_armor.h
@@ -531,6 +551,16 @@ goblin.h
 /home/kejbi/CLionProjects/RPG/goblin.h
 hauberk.h
 /home/kejbi/CLionProjects/RPG/hauberk.h
+knight.h
+/home/kejbi/CLionProjects/RPG/knight.h
+hunter.h
+/home/kejbi/CLionProjects/RPG/hunter.h
+bow.h
+/home/kejbi/CLionProjects/RPG/bow.h
+stamina_potion.h
+/home/kejbi/CLionProjects/RPG/stamina_potion.h
+hp_potion.h
+/home/kejbi/CLionProjects/RPG/hp_potion.h
 
 /home/kejbi/CLionProjects/RPG/thing.cpp
 thing.h

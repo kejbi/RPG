@@ -47,6 +47,26 @@ CMakeFiles/RPG.dir/hp_potion.cpp.o
  /home/kejbi/CLionProjects/RPG/hp_potion.h
  /home/kejbi/CLionProjects/RPG/thing.h
  /home/kejbi/CLionProjects/RPG/usable.h
+CMakeFiles/RPG.dir/hunter.cpp.o
+ /home/kejbi/CLionProjects/RPG/armor.h
+ /home/kejbi/CLionProjects/RPG/character.h
+ /home/kejbi/CLionProjects/RPG/creature.h
+ /home/kejbi/CLionProjects/RPG/hunter.cpp
+ /home/kejbi/CLionProjects/RPG/hunter.h
+ /home/kejbi/CLionProjects/RPG/mob.h
+ /home/kejbi/CLionProjects/RPG/thing.h
+ /home/kejbi/CLionProjects/RPG/usable.h
+ /home/kejbi/CLionProjects/RPG/weapon.h
+CMakeFiles/RPG.dir/knight.cpp.o
+ /home/kejbi/CLionProjects/RPG/armor.h
+ /home/kejbi/CLionProjects/RPG/character.h
+ /home/kejbi/CLionProjects/RPG/creature.h
+ /home/kejbi/CLionProjects/RPG/knight.cpp
+ /home/kejbi/CLionProjects/RPG/knight.h
+ /home/kejbi/CLionProjects/RPG/mob.h
+ /home/kejbi/CLionProjects/RPG/thing.h
+ /home/kejbi/CLionProjects/RPG/usable.h
+ /home/kejbi/CLionProjects/RPG/weapon.h
 CMakeFiles/RPG.dir/leather_armor.cpp.o
  /home/kejbi/CLionProjects/RPG/armor.h
  /home/kejbi/CLionProjects/RPG/leather_armor.cpp
@@ -74,13 +94,18 @@ CMakeFiles/RPG.dir/sword.cpp.o
 CMakeFiles/RPG.dir/tests.cpp.o
  /home/kejbi/CLionProjects/RPG/armor.h
  /home/kejbi/CLionProjects/RPG/barbarian.h
+ /home/kejbi/CLionProjects/RPG/bow.h
  /home/kejbi/CLionProjects/RPG/catch.h
  /home/kejbi/CLionProjects/RPG/character.h
  /home/kejbi/CLionProjects/RPG/creature.h
  /home/kejbi/CLionProjects/RPG/goblin.h
  /home/kejbi/CLionProjects/RPG/hauberk.h
+ /home/kejbi/CLionProjects/RPG/hp_potion.h
+ /home/kejbi/CLionProjects/RPG/hunter.h
+ /home/kejbi/CLionProjects/RPG/knight.h
  /home/kejbi/CLionProjects/RPG/mana_potion.h
  /home/kejbi/CLionProjects/RPG/mob.h
+ /home/kejbi/CLionProjects/RPG/stamina_potion.h
  /home/kejbi/CLionProjects/RPG/sword.h
  /home/kejbi/CLionProjects/RPG/tests.cpp
  /home/kejbi/CLionProjects/RPG/thing.h

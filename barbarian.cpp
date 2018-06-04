@@ -64,6 +64,7 @@ bool Barbarian::charge(Creature &cre, int x, int y) {
         return true;
 
     }
+    return false;
 }
 
 bool Barbarian::stone_throw(Creature &cre) {
@@ -89,4 +90,5 @@ bool Barbarian::stone_throw(Creature &cre) {
         this->stamina-=20;
         return true;
     }
+    return false;
 }

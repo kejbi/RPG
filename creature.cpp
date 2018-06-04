@@ -54,7 +54,7 @@ void Creature::setStamina(int stamina) {
 
 bool Creature::move(int x, int y) {
     int dist=distance(x,y);
-    if(dist*10>this->stamina){
+    if(dist*10>this->stamina || this->isalive==false){
         return false;
     }
     else{

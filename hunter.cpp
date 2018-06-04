@@ -40,7 +40,7 @@ bool Hunter::mob_executer(Mob &m) {
         m.setHp(m.getHp() - damage_done);
         if(m.getHp()<=0){
             m.setIsalive(false);
-            this->add_exp(m.getExp_given()*(2+(this->lvl)/5);
+            this->add_exp(m.getExp_given()*(2+(this->lvl)/5));
         }
         return true;
     }
@@ -107,4 +107,5 @@ bool Hunter::get_out_of_my_face(Creature &cre) {
         this->stamina-=20;
         return true;
     }
+    return false;
 }

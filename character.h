@@ -91,6 +91,8 @@ public:
 
     void renew_Mana();
 
+    void revive();
+
 
 
 };

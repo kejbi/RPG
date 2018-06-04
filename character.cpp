@@ -34,6 +34,9 @@ bool Character::attack(Creature &cre) {
                 int random=rand()%500;
                 if(random+cre.getAgility()>400);{
                     this->setHp(this->getHp()-cre.getDamage()+this->getArmor());
+                    if(this->hp<=0){
+                        this->isalive=false;
+                    }
                 }
             }
             this->setStamina(this->getStamina()-20);
@@ -103,17 +106,17 @@ void Character::use(int i) {
             if(this->getWeapon()== nullptr){
                 this->setWeapon(static_cast<Weapon*>(eq[i]));
                 this->setDamage(this->getStrength()+wp->getDamage());
-                this->setAttackRange(this->getAttackRange()+wp->getRange());
+                this->setAttackRange(wp->getRange());
                 eq.erase(eq.begin()+i);
             }
             else{
                 Weapon* temp;
                 temp=this->getWeapon();
                 this->setDamage(this->getStrength());
-                this->setAttackRange(this->getAttackRange()-wp->getRange());
+                this->setAttackRange(1);
                 this->setWeapon(static_cast<Weapon*>(eq[i]));
                 this->setDamage(this->getStrength()+wp->getDamage());
-                this->setAttackRange(this->getAttackRange()+wp->getRange());
+                this->setAttackRange(wp->getRange());
                 eq[i]=temp;
             }
 
@@ -278,6 +281,20 @@ void Character::renew_Stamina() {
 
 void Character::renew_Mana() {
     this->mana=this->max_mana;
+
+}
+
+void Character::revive() {
+    if(this->isIsalive()){
+        return;
+    }
+    else{
+        this->isalive=true;
+        this->hp=this->max_hp;
+        this->stamina=this->max_stamina;
+        this->mana=this->max_mana;
+        this->exp=0;
+    }
 
 }
 
