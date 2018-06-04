@@ -11,27 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d049052-0ee2-422c-a1d4-3b422f07477f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/armor.h" afterPath="$PROJECT_DIR$/armor.h" />
-      <change beforePath="$PROJECT_DIR$/barbarian.h" afterPath="$PROJECT_DIR$/barbarian.h" />
-      <change beforePath="$PROJECT_DIR$/bow.h" afterPath="$PROJECT_DIR$/bow.h" />
-      <change beforePath="$PROJECT_DIR$/character.cpp" afterPath="$PROJECT_DIR$/character.cpp" />
-      <change beforePath="$PROJECT_DIR$/character.h" afterPath="$PROJECT_DIR$/character.h" />
-      <change beforePath="$PROJECT_DIR$/creature.h" afterPath="$PROJECT_DIR$/creature.h" />
-      <change beforePath="$PROJECT_DIR$/goblin.h" afterPath="$PROJECT_DIR$/goblin.h" />
-      <change beforePath="$PROJECT_DIR$/hauberk.h" afterPath="$PROJECT_DIR$/hauberk.h" />
-      <change beforePath="$PROJECT_DIR$/hp_potion.h" afterPath="$PROJECT_DIR$/hp_potion.h" />
-      <change beforePath="$PROJECT_DIR$/hunter.h" afterPath="$PROJECT_DIR$/hunter.h" />
-      <change beforePath="$PROJECT_DIR$/knight.h" afterPath="$PROJECT_DIR$/knight.h" />
-      <change beforePath="$PROJECT_DIR$/leather_armor.h" afterPath="$PROJECT_DIR$/leather_armor.h" />
-      <change beforePath="$PROJECT_DIR$/mana_potion.h" afterPath="$PROJECT_DIR$/mana_potion.h" />
-      <change beforePath="$PROJECT_DIR$/mob.h" afterPath="$PROJECT_DIR$/mob.h" />
-      <change beforePath="$PROJECT_DIR$/stamina_potion.h" afterPath="$PROJECT_DIR$/stamina_potion.h" />
-      <change beforePath="$PROJECT_DIR$/sword.h" afterPath="$PROJECT_DIR$/sword.h" />
-      <change beforePath="$PROJECT_DIR$/thing.h" afterPath="$PROJECT_DIR$/thing.h" />
-      <change beforePath="$PROJECT_DIR$/usable.h" afterPath="$PROJECT_DIR$/usable.h" />
-      <change beforePath="$PROJECT_DIR$/weapon.h" afterPath="$PROJECT_DIR$/weapon.h" />
-    </list>
+    <list default="true" id="1d049052-0ee2-422c-a1d4-3b422f07477f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -212,7 +192,7 @@
       <workItem from="1527019510724" duration="15379000" />
       <workItem from="1527524480731" duration="20203000" />
       <workItem from="1527953309542" duration="6103000" />
-      <workItem from="1528130368276" duration="14667000" />
+      <workItem from="1528130368276" duration="15268000" />
     </task>
     <servers />
   </component>
@@ -222,7 +202,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75335000" />
+    <option name="totallyTimeSpent" value="75936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="992" y="-4" width="1857" height="1092" extended-state="6" />
