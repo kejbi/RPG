@@ -6,6 +6,8 @@
 #define RPG_GOBLIN_H
 
 #include "mob.h"
+//unique mob-goblin
+//statistics are in definition of constructor Goblin(int x, int y)
 
 class Goblin: public Mob{
 public:

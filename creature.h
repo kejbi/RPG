@@ -14,7 +14,7 @@ enum creature_type{
 };
 class Creature{
 protected:
-    creature_type ct;
+    creature_type ct; //type of creature character or mob, used to distinguish character and mob
     int hp; //health points of creature
     int posX; //actual X position on map
     int posY; //actual Y position on map
@@ -23,12 +23,12 @@ protected:
     int stamina; //every single activity reduces it, your range of activity, every turn it regenerates
     int max_hp; //max health points, you can't regenerate more that this
     int max_stamina;// max stamina points ----------||----------
-    int strength;
-    int intelligence;
-    int agility;
-    int armor;
-    int damage;
-    bool isalive;
+    int strength; //strength of creature (used in damage, skills)
+    int intelligence; //intelligence of creature (used in skills)
+    int agility; //agility of creature (used to counter attack)
+    int armor; //armor reduced damage recieved
+    int damage; //damage inflicted
+    bool isalive; //true when alive, false when dead
 public:
     //getters and setters
     creature_type getCt() const;
@@ -98,13 +98,21 @@ public:
 
 
     //functions
+
+
+    //x, y destination of move
+    //1 distance unit costs 10 stamina
+    //false when not enough stamina or creature is dead
     bool move(int x, int y);
 
+    //returns distance beetwen this creature and (x,y)
+    //for example (0,0) and (0,1) are 1 distance unit distant
     int distance(int x, int y);
 
 
     // virtual functions
 
+    //mobs and characters has different attack (mob's attack can't be countered, mobs doesn't recieve exp etc)
     virtual bool attack(Creature &cre)=0;
 
 

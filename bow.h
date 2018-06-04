@@ -7,6 +7,10 @@
 
 #include "weapon.h"
 
+
+//unique Weapon
+//25 damage, 6 range, weapon type (bow)
+
 class Bow: public Weapon{
 public:
     Bow();

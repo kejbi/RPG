@@ -9,7 +9,7 @@
 
 class Mob: public Creature{
 private:
-    int exp_given;
+    int exp_given; //exp given when mob is killed by character
 public:
     Mob(int hp, int posX, int posY, const std::string &name, int attackRange, int stamina, int max_hp,
         int max_stamina, int strength, int intelligence, int agility, int armor, int damage, bool isalive,
@@ -19,6 +19,8 @@ public:
 
     void setExp_given(int exp_given);
 
+
+    //attack similar to character's attack, without counter and exp given
     bool attack(Creature &cre) override;
 };
 #endif //RPG_MOB_H

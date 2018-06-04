@@ -12,6 +12,7 @@ bool Character::attack(Creature &cre) {
         if(distance(cre.getPosX(),cre.getPosY())>this->getAttackRange()){
             return false;
         }
+            //returns false when target not in range
         else {
             int cre_hp = cre.getHp();
             int damage_done;
@@ -21,7 +22,9 @@ bool Character::attack(Creature &cre) {
             }
             cre.setHp(cre_hp - damage_done);
             if(cre.getHp()<=0){
+                //if hp<0 creature is dead
                 cre.setIsalive(false);
+                //if creature was mob, character should recieve exp
                 if(cre.getCt()==mob){
                     Creature *c;
                     c=&cre;
@@ -30,8 +33,9 @@ bool Character::attack(Creature &cre) {
                 }
             }
                 // counter
+                //if character is in range of creature(target)
             else if(distance(cre.getPosX(),cre.getPosY())<=cre.getAttackRange()){
-                int random=rand()%500;
+                int random=rand()%500; //counter is random thing, agility increases chance for it
                 if(random+cre.getAgility()>400);{
                     this->setHp(this->getHp()-cre.getDamage()+this->getArmor());
                     if(this->hp<=0){

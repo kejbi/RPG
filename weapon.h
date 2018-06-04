@@ -10,7 +10,15 @@ enum weapon_type{
     bow,
     sword
 };
+
+//weapon is type of thing
+//improves damage and range of character when worn
 class Weapon: public Thing{
+private:
+    weapon_type wt; //type of weapon (can be used in future ;P)
+    int damage; //added damage
+    int range; //new range
+
 public:
 
     weapon_type getWt() const;
@@ -27,10 +35,6 @@ public:
 
     void setRange(int range);
 
-private:
-    weapon_type wt;
-    int damage;
-    int range;
 
 };
 #endif //RPG_WEAPON_H

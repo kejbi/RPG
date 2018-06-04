@@ -7,6 +7,8 @@
 
 #include "usable.h"
 
+//unique usable
+//renews 15 stamina
 class StaminaPotion: public Usable{
 public:
     StaminaPotion();

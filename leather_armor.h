@@ -6,7 +6,8 @@
 #define RPG_LEATHER_ARMOR_H
 
 #include "armor.h"
-
+//unique armor_thing
+//5 armor added
 class LeatherArmor: public Armor{
 public:
     LeatherArmor();

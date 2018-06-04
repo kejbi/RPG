@@ -7,11 +7,15 @@
 
 #include "thing.h"
 
+
+//usable is type of thing
+//usable renews some points of mana, stamina, hp
+
 class Usable: public Thing{
 private:
-    int reg_mana;
-    int reg_stamina;
-    int reg_hp;
+    int reg_mana; //regenerated mana
+    int reg_stamina; //regenerated stamina
+    int reg_hp; //regenerated hp
 public:
 
     Usable(int reg_mana, int reg_stamina, int reg_hp);

@@ -6,7 +6,8 @@
 #define RPG_MANA_POTION_H
 
 #include "usable.h"
-
+//unique usable
+//renew 20 mana
 class ManaPotion: public Usable{
 public:
     ManaPotion();

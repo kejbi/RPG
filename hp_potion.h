@@ -6,7 +6,8 @@
 #define RPG_HP_POTION_H
 
 #include "usable.h"
-
+//unique usable
+//renew 40 hp
 class HpPotion: public Usable{
 public:
     HpPotion();
